@@ -1,0 +1,31 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block title %}Acerca de{% endblock %}
+
+{% block background %}{% static 'core/img/about-bg.jpg' %}{%endblock%}
+
+{% block header %}
+    <h1>Acerca de mi</h1>
+    <span class="subheading">Biografía</span>
+{%endblock%}
+
+{%block content%}
+    <div class="row">
+        <div class="clo-lg-3 col-md-4 offset-lg-1">
+            <img class="img-fluid avatar"
+                src="{% static 'core/img/avatar1.jpg' %}" alt=""
+            >
+        </div>
+        <div class="col-lg-7 col-md-8">
+            <h2 class="section-heading">Gino Padovani</h2>
+            <p>Me llamo Gino, tengo 21 y tal vez, este año me reciba de Analista.
+                Entusiasta en aprender y con afán de trabajar de lo que vengo estudiando hace un tiempo.
+                Espero mi perfil te sea de utilidad para saber lo que puedo ofrecer y aportar.
+            </p>
+        </div>
+    
+    </div>
+{% endblock %}
+
+
+

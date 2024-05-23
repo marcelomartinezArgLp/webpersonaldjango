@@ -1,0 +1,38 @@
+{% extends 'core/base.html' %}
+
+{% load static %}
+
+{% block title %}Contacto{% endblock %}
+
+{% block background %}{% static 'core/img/contact-bg-1.jpg' %}{% endblock %}
+
+
+{% block headers %}
+    <h1>Contacto</h1>
+    <span class="subheading">Asesoría</span>
+    <p>Dejo a disposición Email y redes sociales:</p>
+{% endblock %}
+
+{% block content %}
+
+    <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+            <p>Necesitas una página web sencilla y funcional?
+                Entonces, contactame!
+                Estoy al servicio y programaré lo que imaginas en tu página ideal.
+            </p>
+            <br>
+            <p><b>Mi teléfono es: 0000-000000</b></p>
+            <p><b>Precio por consulta: $x</b></p>
+            <p><b>Precio por servicio: $x</b></p>
+        </div>
+    </div>
+    
+    <ul>
+        <li><a href = "mailto:Padovanigino18@hotmail.com">Email</a></li>
+        <li><a href = "https://github.com/GinoPad">Github</a></li>
+    </ul>
+  
+{% endblock %}
+
+

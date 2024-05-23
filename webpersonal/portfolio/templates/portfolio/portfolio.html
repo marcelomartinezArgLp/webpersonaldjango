@@ -1,0 +1,32 @@
+{% extends 'core/base.html' %}
+
+{% load static %}
+
+{% block title %}Portafolio{% endblock %}
+
+{% block background %}{% static 'core/img/portfolio-bg.jpg' %}{% endblock %}
+
+{% block headers %}
+    <h1>Portafolio</h1>
+    <span class="subheading">Proyectos</span>
+    
+{% endblock %}
+
+{% block content %}
+    <!--Proyecto-->
+    <div class="row project">
+        <div class="col-lg-3 col-md-4 offset-lg-1">
+            <img class="img-fluid"
+                src="{% static 'core/img/home-bg' %}" alt=""
+            >
+        </div>
+        <div class="col-lg-7 col-md-8">
+            <h2 class="section-heading title">Primer Proyecto</h2>
+            <p>Proyecto sencillo en python de una venta de un artículo</p>
+            <p><a target="_blank" href="https://github.com/GinoPad/Holamundo">Más Información</a></p>
+        </div>
+
+    </div>
+{% endblock %}
+
+

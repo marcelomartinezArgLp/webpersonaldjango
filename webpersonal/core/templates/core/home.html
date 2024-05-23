@@ -1,0 +1,30 @@
+{% extends 'core/base.html' %}
+{%load static%}
+{% block title %}Portada{% endblock %}
+
+
+{% block background %}{% static 'core/img/home-bg-1.jpg' %}{% endblock %}
+<!--
+    -->
+
+
+
+
+
+{% block headers %}
+
+<h1> Bienvenido </h1>
+<h2>Gino Padovani</h2>
+<span class="subheading">Analista de Sistemas</span>
+{% endblock %}                        
+<body>
+    <style>
+        body {
+            background-image: url('/core/static/core/img/home-bg-1.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+    
+</body>
